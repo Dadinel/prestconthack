@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/darker_theme_color"
+    android:elevation="5dp"
+    android:theme="@android:style/ThemeOverlay.Material.Dark"
+    android:popupTheme="@android:style/ThemeOverlay.Material.Light" />
+
+<!-- From: file:/C:/dev/src/advtec9/trunk_fat/android-build/res/layout-v21/layout_toolbar.xml -->

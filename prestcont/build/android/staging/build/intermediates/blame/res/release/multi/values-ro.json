@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\res\\merged\\release\\values-ro\\values-ro.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 118,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\exploded-aar\\com.totvs.smartclient\\res\\values-ro\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endColumn": 118,
+                        "endOffset": 288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 174,
+                    "endColumn": 118,
+                    "endOffset": 288
+                },
+                "from": {
+                    "file": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\exploded-aar\\com.totvs.smartclient\\res\\values-ro\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 293,
+                        "endColumn": 118,
+                        "endOffset": 407
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 293,
+                    "endColumn": 115,
+                    "endOffset": 404
+                },
+                "from": {
+                    "file": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\exploded-aar\\com.totvs.smartclient\\res\\values-ro\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 412,
+                        "endColumn": 115,
+                        "endOffset": 523
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 409,
+                    "endColumn": 85,
+                    "endOffset": 490
+                },
+                "from": {
+                    "file": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\exploded-aar\\com.totvs.smartclient\\res\\values-ro\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 528,
+                        "endColumn": 85,
+                        "endOffset": 609
+                    }
+                }
+            }
+        ]
+    }
+]

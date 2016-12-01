@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\libs"><file name="com.totvs.smartclient.aar" path="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\libs\com.totvs.smartclient.aar"/></source></dataSet><dataSet config="debug"><source path="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\src\debug\jniLibs"/></dataSet></merger>

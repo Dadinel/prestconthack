@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/dev/src/advtec9/trunk_fat/android-build/res/values-v21/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme.Default" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorAccent">@color/material_blue_gray_200</item>
+    </style>
+    <style name="AppTheme.DialogWhenLarge" parent="android:style/Theme.Material.Light.DialogWhenLarge.NoActionBar">
+        <item name="android:colorAccent">@color/material_blue_gray_200</item>
+    </style>
+</resources>

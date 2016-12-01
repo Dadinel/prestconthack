@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\res\\merged\\debug\\layout\\splash.xml",
+        "source": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\exploded-aar\\com.totvs.smartclient\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ini_editor.xml",
+        "source": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\exploded-aar\\com.totvs.smartclient\\res\\layout\\activity_ini_editor.xml"
+    },
+    {
+        "merged": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_shortcut.xml",
+        "source": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\exploded-aar\\com.totvs.smartclient\\res\\layout\\activity_create_shortcut.xml"
+    }
+]

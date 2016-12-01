@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_delete.png",
+        "source": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\exploded-aar\\com.totvs.smartclient\\res\\drawable-xxhdpi-v4\\ic_delete.png"
+    },
+    {
+        "merged": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\add_section.png",
+        "source": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\exploded-aar\\com.totvs.smartclient\\res\\drawable-xxhdpi-v4\\add_section.png"
+    },
+    {
+        "merged": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_edit.png",
+        "source": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\exploded-aar\\com.totvs.smartclient\\res\\drawable-xxhdpi-v4\\ic_edit.png"
+    },
+    {
+        "merged": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\add_key.png",
+        "source": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\exploded-aar\\com.totvs.smartclient\\res\\drawable-xxhdpi-v4\\add_key.png"
+    }
+]

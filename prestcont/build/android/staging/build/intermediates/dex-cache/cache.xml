@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\jars\libs\QtSensors-bundled.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="bc74369c642374fb1e52de6a914424eb78d885e2">
+        <dex dex="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\pre-dexed\debug\QtSensors-bundled_d8eaf12a047aa9fd225df70aa5afba073a44ce04.jar" />
+    </item>
+    <item
+        jar="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\jars\libs\QtAndroid-bundled.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="bc7ab6cc93c34e2a39f3baaeca25d2a5250a6154">
+        <dex dex="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\pre-dexed\debug\QtAndroid-bundled_1f43f2e7d24592e10e69355efc30320f09c16eb0.jar" />
+    </item>
+    <item
+        jar="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\jars\libs\org.ini4j-ini4j-0.5.4.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="4a3ee4146a90c619b20977d65951825f5675b560">
+        <dex dex="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\pre-dexed\debug\org.ini4j-ini4j-0.5.4_757a336b69899b567ab5a654d0957e73e5dcf252.jar" />
+    </item>
+    <item
+        jar="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\jars\libs\QtAndroidWebView-bundled.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="86a5d0132e061b9e213771f8764fe9ede20c9b32">
+        <dex dex="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\pre-dexed\debug\QtAndroidWebView-bundled_b7588b7c3a31b05439d35fc93c1fbc9f42a02a9e.jar" />
+    </item>
+    <item
+        jar="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\jars\libs\QtPositioning-bundled.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ccbacbca1ca429337a01813b329b52b13deedab1">
+        <dex dex="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\pre-dexed\debug\QtPositioning-bundled_eb17a83c61305bc2eceabb59228a48bf8bb356f7.jar" />
+    </item>
+    <item
+        jar="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="e35b947c3856fe60dfc765f64b42f91977b7b1e8">
+        <dex dex="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-com.totvs.smartclient_a9b9e85dfbc2f47dee2a2892d6a1d19e95d09543.jar" />
+    </item>
+    <item
+        jar="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\jars\libs\QtAndroidBearer-bundled.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="46f2a40b7a3b91abf8449a31ad13f719bda8b072">
+        <dex dex="D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\pre-dexed\debug\QtAndroidBearer-bundled_341f3f06f19624b92f07824e8395953e5b9f4f43.jar" />
+    </item>
+
+</items>

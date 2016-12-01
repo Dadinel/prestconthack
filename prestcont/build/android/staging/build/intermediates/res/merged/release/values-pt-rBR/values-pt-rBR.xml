@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shortcut_type_titles">
+        <item>Execução de Programa</item>
+        <item>Configurações</item>
+    </string-array>
+    <string name="action_add_key">Adicionar Chave</string>
+    <string name="action_add_key_message">Digite o nome e valor da nova chave:</string>
+    <string name="action_add_section">Adicionar Seção</string>
+    <string name="action_add_section_message">Digite o nome da nova seção:</string>
+    <string name="action_delete_key">Remover Chave</string>
+    <string name="action_delete_key_title">Confirma a exclusao da chave:</string>
+    <string name="action_delete_section">Remover Seção</string>
+    <string name="action_edit_key">Alterar Chave</string>
+    <string name="action_edit_key_message">Altere o nome e valor da chave:</string>
+    <string name="action_edit_section">Alterar Seção</string>
+    <string name="cancel">Cancelar</string>
+    <string name="communication">Comunicação no cliente:</string>
+    <string name="confirm_section_delete">Confirma a exclusão da seção</string>
+    <string name="create">Criar</string>
+    <string name="create_shortcut">Criar atalho</string>
+    <string name="environment">Ambiente no servidor:</string>
+    <string name="fatal_error_msg">Sua aplicação encontrou um erro fatal e não pode continuar.</string>
+    <string name="ini_editor">Editor de Configurações</string>
+    <string name="ministro_needed_msg">Essa aplicação requer o serviço Ministro. Gostaria de instalá-lo?</string>
+    <string name="ministro_not_found_msg">Não foi possível encontrar o serviço Ministro.\nA aplicação não pode iniciar.</string>
+    <string name="ok">Ok</string>
+    <string name="required_field">Campo Obrigatório</string>
+    <string name="section_already_has_a_key_with_this_name">A seção já possui uma chave com este nome!</string>
+    <string name="section_name_already_exists">O nome da seção já existe!</string>
+    <string name="settings">Configuracoes</string>
+    <string name="settings_file">Arquivo de Configuração:</string>
+    <string name="shortcut_name">Nome do atalho:</string>
+    <string name="shortcut_type">Tipo de atalho:</string>
+    <string name="start_program">Programa inicial:</string>
+    <string name="unable_to_open_file">Não foi possivel abrir o arquivo!</string>
+</resources>

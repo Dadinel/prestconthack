@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:baselineAligned="false"
+              android:divider="?android:attr/dividerHorizontal"
+              android:orientation="horizontal"
+              android:showDividers="middle"
+              tools:context="com.totvs.smartclient.inieditor.EditorActivity">
+
+    <FrameLayout
+        android:id="@+id/editor_section_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"/>
+
+
+    <FrameLayout
+        android:id="@+id/editor_key_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"/>
+
+</LinearLayout>
+<!-- From: file:/C:/dev/src/advtec9/trunk_fat/android-build/res/layout-sw600dp/activity_ini_editor.xml -->

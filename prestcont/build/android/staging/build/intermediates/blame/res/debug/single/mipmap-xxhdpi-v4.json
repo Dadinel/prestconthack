@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_shortcut.png",
+        "source": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\exploded-aar\\com.totvs.smartclient\\res\\mipmap-xxhdpi-v4\\ic_shortcut.png"
+    },
+    {
+        "merged": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_settings.png",
+        "source": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\exploded-aar\\com.totvs.smartclient\\res\\mipmap-xxhdpi-v4\\ic_settings.png"
+    },
+    {
+        "merged": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher_alpha.png",
+        "source": "D:\\Totvs\\Mobile\\prestconthack\\prestcont\\build\\android\\staging\\build\\intermediates\\exploded-aar\\com.totvs.smartclient\\res\\mipmap-xxhdpi-v4\\ic_launcher_alpha.png"
+    }
+]

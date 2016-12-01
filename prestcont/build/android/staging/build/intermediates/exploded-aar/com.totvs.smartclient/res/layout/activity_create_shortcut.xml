@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    tools:context="com.totvs.smartclient.CreateShortcutActivity">
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/tabHost"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:layout_weight="1"
+                                android:layout_margin="10dp"
+                                android:gravity="center|end"
+                                android:text="@string/shortcut_name" />
+
+                            <EditText
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_margin="10dp"
+                                android:gravity="center|start"
+                                android:id="@+id/text_name"
+                                android:text="Faturamento" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:layout_weight="1"
+                                android:layout_margin="10dp"
+                                android:gravity="center|end"
+                                android:text="@string/start_program" />
+
+                            <EditText
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_margin="10dp"
+                                android:gravity="center|start"
+                                android:id="@+id/text_program"
+                                android:text="SIGAFAT" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:layout_weight="1"
+                                android:layout_margin="10dp"
+                                android:gravity="center|end"
+                                android:text="@string/communication" />
+
+                            <EditText
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_margin="10dp"
+                                android:gravity="center|start"
+                                android:id="@+id/text_communication"
+                                android:text="TCP" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:layout_weight="1"
+                                android:layout_margin="10dp"
+                                android:gravity="center|end"
+                                android:text="@string/environment" />
+
+                            <EditText
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_margin="10dp"
+                                android:gravity="center|start"
+                                android:id="@+id/text_environment"
+                                android:text="ENVIRONMENT" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+
+                <ScrollView
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:layout_weight="1"
+                                android:layout_margin="10dp"
+                                android:gravity="center|end"
+                                android:text="@string/shortcut_name" />
+
+                            <EditText
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_margin="10dp"
+                                android:gravity="center|start"
+                                android:id="@+id/settings_shortcut_name"
+                                android:text="@string/settings" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:layout_weight="1"
+                                android:layout_margin="10dp"
+                                android:gravity="center|end"
+                                android:text="@string/settings_file" />
+
+                            <EditText
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_margin="10dp"
+                                android:gravity="center|start"
+                                android:id="@+id/settings_file"
+                                android:text="" />
+
+                        </LinearLayout>
+
+                        <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pick_file"
+                            android:padding="20dp"
+                            android:layout_margin="10dp"
+                            android:id="@+id/button_file_pick" />
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </TabHost>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/create"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:id="@+id/button_create" />
+
+</LinearLayout>
+<!-- From: file:/C:/dev/src/advtec9/trunk_fat/android-build/res/layout/activity_create_shortcut.xml -->

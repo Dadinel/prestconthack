@@ -1,0 +1,260 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:2:1-99:12
+	package
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:3:5-35
+		INJECTED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml
+		INJECTED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml
+		INJECTED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml
+		INJECTED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml
+application
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:5:5-81:19
+	android:label
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:9:9-41
+	android:supportsRtl
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:12:9-35
+	android:hardwareAccelerated
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:11:3-37
+	android:allowBackup
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:7:9-35
+	android:icon
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:8:9-43
+	android:theme
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:10:3-42
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:6:3-39
+activity#com.alvaro.prestcont.prestcontActivity
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:14:9-79:20
+	android:screenOrientation
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:18:4-43
+	android:launchMode
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:17:4-34
+	android:windowSoftInputMode
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:19:4-46
+	android:configChanges
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:16:4-141
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:15:13-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:21:13-24:29
+action#android.intent.action.MAIN
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:23:27-74
+meta-data#android.app.lib_name
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:26:13-28:52
+	android:value
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:28:17-49
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:27:17-52
+meta-data#android.app.qt_sources_resource_id
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:29:13-31:56
+	android:resource
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:31:17-53
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:30:17-66
+meta-data#android.app.repository
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:32:13-34:43
+	android:value
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:34:17-40
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:33:17-54
+meta-data#android.app.qt_libs_resource_id
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:35:13-37:53
+	android:resource
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:37:17-50
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:36:17-63
+meta-data#android.app.bundled_libs_resource_id
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:38:13-40:58
+	android:resource
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:40:17-55
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:39:17-68
+meta-data#android.app.bundle_local_qt_libs
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:42:13-44:37
+	android:value
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:44:17-34
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:43:17-64
+meta-data#android.app.bundled_in_lib_resource_id
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:45:13-47:60
+	android:resource
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:47:17-57
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:46:17-70
+meta-data#android.app.bundled_in_assets_resource_id
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:48:13-50:63
+	android:resource
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:50:17-60
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:49:17-73
+meta-data#android.app.use_local_qt_libs
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:52:13-54:37
+	android:value
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:54:17-34
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:53:17-61
+meta-data#android.app.libs_prefix
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:55:13-57:55
+	android:value
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:57:17-52
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:56:17-55
+meta-data#android.app.load_local_libs
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:58:13-60:186
+	android:value
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:60:17-183
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:59:17-59
+meta-data#android.app.load_local_jars
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:61:13-63:245
+	android:value
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:63:17-242
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:62:17-59
+meta-data#android.app.static_init_classes
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:64:13-66:139
+	android:value
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:66:17-136
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:65:17-63
+meta-data#android.app.ministro_not_found_msg
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:68:13-70:66
+	android:value
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:70:17-63
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:69:17-66
+meta-data#android.app.ministro_needed_msg
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:71:13-73:63
+	android:value
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:73:17-60
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:72:17-63
+meta-data#android.app.fatal_error_msg
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:74:13-76:59
+	android:value
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:76:17-56
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:75:17-59
+uses-permission#android.permission.INTERNET
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:83:2-63
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:83:19-61
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:84:2-72
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:84:19-70
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:85:2-64
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:85:19-62
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:86:2-70
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:22:5-74
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:86:19-68
+uses-permission#android.permission.CAMERA
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:87:2-61
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:23:5-65
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:87:19-59
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:88:2-77
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:88:19-75
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:89:2-76
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:89:19-74
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:90:2-75
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:90:19-73
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:91:2-62
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:27:5-66
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:91:19-60
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:92:2-75
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:92:19-73
+uses-feature#android.hardware.telephony
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:94:2-84
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:94:58-82
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:94:16-57
+uses-feature#android.hardware.camera
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:95:2-81
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:95:55-79
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:95:16-54
+uses-feature#android.hardware.bluetooth
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:96:2-84
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:96:58-82
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:96:16-57
+uses-feature#android.hardware.wifi
+ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:97:2-79
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:97:53-77
+	android:name
+		ADDED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml:97:16-52
+uses-sdk
+INJECTED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		INJECTED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml
+		INJECTED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml
+		INJECTED from D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\AndroidManifest.xml
+supports-screens
+ADDED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:12:5-17:40
+	android:largeScreens
+		ADDED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:13:9-36
+	android:smallScreens
+		ADDED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:16:9-37
+	android:normalScreens
+		ADDED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:14:9-38
+	android:requiresSmallestWidthDp
+		ADDED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:15:9-46
+	android:xlargeScreens
+		ADDED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:17:9-37
+uses-permission#android.permission.READ_CALENDAR
+ADDED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:29:5-72
+	android:name
+		ADDED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:29:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:30:5-73
+	android:name
+		ADDED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:30:22-70
+uses-permission#android.permission.READ_CONTACTS
+ADDED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:31:5-72
+	android:name
+		ADDED from [:com.totvs.smartclient:] D:\Totvs\Mobile\prestconthack\prestcont\build\android\staging\build\intermediates\exploded-aar\com.totvs.smartclient\AndroidManifest.xml:31:22-69
