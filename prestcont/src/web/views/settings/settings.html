@@ -1,0 +1,11 @@
+<div
+    class="container totvs-content anim-slide-below-fade"
+    ui-view="settings"
+    ng-controller="SettingsController as controller">
+
+    <button
+        ng-click="controller.scan()"
+    > Ler código de barra </button>
+    {{ controller.code }}
+
+</div>

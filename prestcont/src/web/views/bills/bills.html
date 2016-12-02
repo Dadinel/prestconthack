@@ -1,0 +1,66 @@
+<div
+    class="container totvs-content anim-slide-below-fade"
+    ui-view="bills"
+    ng-controller="BillsController as controller">
+
+    <div class="totvs-content-padding">
+        <div class="totvs-searchbox">
+            <span class="glyphicon left glyphicon-search"></span>
+            <input
+                type="text"
+                id="search"
+                placeholder="{{ 'l-Pesquisar' | translate }}"
+                ng-model="controller.filter.searchkey"
+                ng-model-options='{ debounce: 500 }'
+                ng-change="controller.updateFilter()"
+                ng-keypress="controller.enterSearchKey($event)" />
+            <span class="glyphicon right glyphicon-remove" ng-click="controller.updateFilter(true)" ></span>
+        </div>
+    </div>
+
+    <ul class="totvs-list">
+
+        <li class="totvs-list-item icon selectable" ng-repeat="bill in controller.bills | filter:controller.filter.searchkey as results" ng-click="controller.openBill( bill )" >
+
+            <span class="small-text">
+                {{ bill.uDate }}
+            </span>
+            <br>
+            <span class="small-text">
+                <font color="#0c9abe">
+                    <b>{{ bill.name }}</b>
+                </font>
+            </span>
+
+            <span class="totvs-list-item-icon">
+                <figure>
+                    <img src="./assets/img/icon-menu-right.png" align='right'>
+                </figure>
+            </span>
+
+        </li>
+
+        <li class="totvs-list-item totvs-spinner-container" ng-if="false">
+            <div class="totvs-spinner" ng-if="false">
+                <img src='./assets/img/loading.png'>
+            </div>
+        </li>
+
+        <li class="totvs-list-item" ng-if="!controller.bills.length || results.length==0">
+            <center>
+                <span class="small-text">
+                    {{ 'l-Nenhuma-Tarefa' | translate }}
+                </span>
+            </center>
+        </li>
+
+        <li class="totvs-list-item" ng-if="controller.haveMore">
+            <button
+                ng-click=""
+                class="totvs-btn totvs-btn-primary totvs-btn-justified">
+                {{'l-Carregar-mais' | translate}}
+            </button>
+        </li>
+    </ul>
+
+</div>

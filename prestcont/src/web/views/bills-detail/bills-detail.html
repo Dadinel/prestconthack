@@ -1,0 +1,41 @@
+<div
+    class="container totvs-content"
+    ng-class="controller.anim"
+    ui-view="bills.detail"
+    ng-controller="BillDetailController as controller">
+
+    <ul class="totvs-list" style="margin-top:0px">
+        <li class="totvs-list-divider">
+            {{ 'l-Tarefa' | translate }}
+        </li>
+
+        <li class="totvs-list-item">
+            <div class="totvs-list-item-label">
+                {{ 'l-Nome' | translate }}
+            </div>
+            <div class="totvs-list-item-value">
+                <p>{{controller.bill.name}}</p>
+            </div>
+        </li>
+
+        <li class="totvs-list-item">
+            <div class="totvs-list-item-label">
+                {{ 'l-Data' | translate }}
+            </div>
+            <div class="totvs-list-item-value">
+                <p>{{ controller.bill.uDate }}</p>
+            </div>
+        </li>
+    </ul>
+
+    <div class="totvs-content-padding">
+        <button
+            id="btSalvar"
+            type="button"
+            class="totvs-btn totvs-btn-primary totvs-btn-justified"
+            ng-click="controller.save()">
+            {{ 'l-Finalizar' | translate }}
+        </button>
+    </div>
+
+</div>
