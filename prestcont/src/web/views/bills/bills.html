@@ -23,12 +23,12 @@
         <li class="totvs-list-item icon selectable" ng-repeat="bill in controller.bills | filter:controller.filter.searchkey as results" ng-click="controller.openBill( bill )" >
 
             <span class="small-text">
-                {{ bill.uDate }}
+                {{ bill.date }}
             </span>
             <br>
             <span class="small-text">
                 <font color="#0c9abe">
-                    <b>{{ bill.name }}</b>
+                    <b>{{ bill.desc }}</b>
                 </font>
             </span>
 

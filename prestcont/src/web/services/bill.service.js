@@ -8,25 +8,35 @@
 
     function Service($q, $uibModal, $http) {
         var service = this;
+        
+        //service.bills
 
         service.bills = [
             {
+                _id:1,
                 name: "Alvaro",
-                uDate:"06/11/1987"
+                value:"R$30.000,00",
+                date:"06/11/1987",
+                desc:"Descricao da conta"
+                
             },
             {
+                _id:2,
                 name: "Daniel",
-                uDate:"06/11/1987"
+                value:"R$35.000,00",
+                date:"06/12/1987",
+                desc:"Descricao da conta do Daniel"
             }
 
         ]
 
         
-        service.url = 'xxx';
+        service.url = 'http://172.16.35.41:8080/Rest/PrestCont';
 
         service.option = {
                 headers: {
-                    'Authorization' : 'alvaro'
+                    "Content-Type": "application/json",
+                    "Authorization": "Daniel"
                 }
             };
 
@@ -34,30 +44,31 @@
                        
             var deferred =$q.defer();  
             deferred.resolve(service.bills);
-/*
-            $http.get(service.url, service.option)
+            //:TODO:
+            /*var url = service.url + '/84a322e2a4ed4000804Bdb08edc06f98'
+
+            $http.get(url, service.option)
             .then(function(result){
                 console.log("Result");
                 console.log(result);
 
-                service.bills =result.data.bills;
+                service.bills = result.data.bills;
 
                 for( var i = 0; i < service.bills.length ; i++ ){
-                    service.bills[i].uDate = service.beautify(service.bills[i].date);
+                    service.bills[i].Date = service.beautify(service.bills[i].date);
                 }
 
                 deferred.resolve(service.bills);
 
             }
             , function(error){
-                console.log("Error");
+                console.log("Error!!!");
                 console.log(error);       
 
                 deferred.reject(error);        
-            });
-*/
+            });*/
+
             return deferred.promise;
-            //return bills
         }
 
         service.addBill = function(bill) {

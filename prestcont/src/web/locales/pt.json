@@ -36,7 +36,8 @@
 
     "l-Carregar-mais" : "Carregar mais",
     "l-bem-vindo" : "Bem vindo!",
-
+    "l-Descricao" : "Descrição da Despesa",
+    "l-Valor" : "Valor da Despesa",
 
     "l-Pesquisar" : "Pesquisar",
     "l-Sair" : "Sair",
@@ -49,6 +50,7 @@
     "l-Data" : "Data",
     "l-Bills.detail" : "Detalhes",
     "l-Tarefa" : "Tarefa",
+    "l-Conta" : "Despesa",
     "l-bills" : "Contas"
 
 }

@@ -6,15 +6,15 @@
 
     <ul class="totvs-list" style="margin-top:0px">
         <li class="totvs-list-divider">
-            {{ 'l-Tarefa' | translate }}
+            {{ 'l-Conta' | translate }}
         </li>
 
         <li class="totvs-list-item">
             <div class="totvs-list-item-label">
-                {{ 'l-Nome' | translate }}
+                {{ 'l-Valor' | translate }}
             </div>
             <div class="totvs-list-item-value">
-                <p>{{controller.bill.name}}</p>
+                <p>{{controller.bill.value}}</p>
             </div>
         </li>
 
@@ -23,9 +23,19 @@
                 {{ 'l-Data' | translate }}
             </div>
             <div class="totvs-list-item-value">
-                <p>{{ controller.bill.uDate }}</p>
+                <p>{{ controller.bill.date }}</p>
             </div>
         </li>
+
+        <li class="totvs-list-item">
+            <div class="totvs-list-item-label">
+                {{ 'l-Descricao' | translate }}
+            </div>
+            <div class="totvs-list-item-value">
+                <p>{{ controller.bill.desc }}</p>
+            </div>
+        </li>
+
     </ul>
 
     <div class="totvs-content-padding">
