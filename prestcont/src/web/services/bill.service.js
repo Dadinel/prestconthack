@@ -9,8 +9,8 @@
     function Service($q, $uibModal, $http) {
         var service = this;
         
-        //service.bills
-
+        //service.bills = []
+        
         service.bills = [
             {
                 _id:1,

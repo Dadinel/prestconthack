@@ -51,6 +51,7 @@
     "l-Bills.detail" : "Detalhes",
     "l-Tarefa" : "Tarefa",
     "l-Conta" : "Despesa",
-    "l-bills" : "Contas"
+    "l-bills" : "Contas",
+    "l-TipoDespesa" : "Tipo de Despesa"
 
 }
